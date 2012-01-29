@@ -1,11 +1,18 @@
+Title: Everything you think you know about web design is wrong.
+
 Introduction
 ============
 
-Everything you think you know about web design is wrong.
+This tiny book is meant as a manifest of simple principles describing how to design for the web. These principles describe an approach to web design that is very different than what you might learn by looking at current trends online. It's a reaction against the culture of web design copycats who in headless attempts to mimic each other's drop shadows, forget that a successful web page is not based on huge typography or a perfect gradient. 
 
-Working with the constraints of the markup language
+Inspired by the web's own history 
 
-About being hip - a culture of copycats with no meaning. Drop shadow galleries
+Designing for the web is not designing for print.
 
-I speak for a different approach to web design.
 
+HTML is built on the concept of rectangles. They 
+
+
+It's a clear sign of the beginner not to embrace this, making things round or skewed.
+
+Working with the constraints of the markup language.
