@@ -3,9 +3,10 @@ Title: Everything you think you know about web design is wrong.
 Introduction
 ============
 
-This tiny book is meant as a manifest of simple principles describing how to design for the web. These principles describe an approach to web design that is very different than what you might learn by looking at current trends online. It's a reaction against the culture of web design copycats who in headless attempts to mimic each other's drop shadows forget that a successful web page is not based on huge typography or a perfect gradient.
+This tiny book is meant as a manifest with simple principles describing how to design for the web. These principles describe an approach to web design that is very different than what you might learn by looking at current trends online. It's a reaction against the culture of web design copycats who in headless attempts to mimic each other's drop shadows forget that a successful web page is not based on huge typography or a perfect gradient.
 
 Not only is this book a statement against the dictating nature of anything hip or trendy, but 
+
 
 
 It's not only a statement against all hip or trendy - these things go away
