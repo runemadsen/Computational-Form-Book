@@ -1,35 +1,122 @@
-Title: Everything you think you know about web design is wrong.
+Titles
+------
+
+Computational Form
+Computational Design
 
 Introduction
-============
+------------
 
-This tiny book is meant as a manifest with simple principles describing how to design for the web. These principles describe an approach to web design that is very different than what you might learn by looking at current trends online. It's a reaction against the culture of web design copycats who in headless attempts to mimic each other's drop shadows forget that a successful web page is not based on huge typography or a perfect gradient.
+This book originally started as a talk called "Computational Design" that I gave at the Maryland Institute College of Art in 2012. The talk was originally supposed to be about my work, but ended up being a personal statement on how to use the computer as a design tool.
 
-Not only is this book a statement against the dictating nature of anything hip or trendy, but 
+At the time I was trying to figure out what kind of talk I would liked to have seen in my senior year in undergrad, which led me to think about what kind of a designer I was in undergrad. Thinking back, I realized that in undergrad I had a really hard time understanding exactly what design is. Is design making things pretty? Is design choosing the right colors? I had no clue.
 
-
-
-It's not only a statement against all hip or trendy - these things go away
+Another thing: What does it mean to use the computer? 
 
 
-a statement against anything hip or trendy ending up dictating the final output of 
+________________________NOTES__________________________
+
+About Me
+--------
+
+When I say that I'm a graphic designer and programmer, it's not like I'm a photoshop expert who learned a little HTML and CSS, or a programmer who learned to apply a drop shadow in Illustrator. When I talk about myself as a computational designer, it's because graphic design and programming are 2 native languages that I speak. I would say I could as easily participate in a conversation about Bauhaus style, typefaces or shape balance as I could participate in a conversation about programmatic patterns, OPENGL or the internals of Ruby.
+
+This is very important for me, because I basically see programming and design as the same thing. There is no distinction for me. I know that you're probably used to seeing a clear separation of these 2 fields: The graphic designer is the *creative* person who designs all visual components, and the programmer is the *technical* person who can implement this as a website or program. Although this is pretty much the way it works everywhere, I think this may very soon be a very old world thing. This talk will be about this new generation of computational designers who speaks the language of the computer as well as the language of visual form.
+
+I realize this talk may come off as a statement against the field of advertising, but that's not really the case. My intent is to show you that advertising is not the only option on the table when you're a graphic design student. I'll say this, because I did not know this in undergrad. My own story is about slowly but steadily moving away form advertising, never to return.
+
+
+About Me
+--------
+
+When I say that I'm a graphic designer and programmer, it's not like I'm a photoshop expert who learned a little HTML and CSS, or a programmer who learned to apply a drop shadow in Illustrator. When I talk about myself as a computational designer, it's because graphic design and programming are 2 native languages that I speak. I would say I could as easily participate in a conversation about Bauhaus style, typefaces or shape balance as I could participate in a conversation about programmatic patterns, OPENGL or the internals of Ruby.
+
+This is very important for me, because I basically see programming and design as the same thing. There is no distinction for me. I know that you're probably used to seeing a clear separation of these 2 fields: The graphic designer is the *creative* person who designs all visual components, and the programmer is the *technical* person who can implement this as a website or program. Although this is pretty much the way it works everywhere, I think this may very soon be a very old world thing. This talk will be about this new generation of computational designers who speaks the language of the computer as well as the language of visual form.
+
+I realize this talk may come off as a statement against the field of advertising, but that's not really the case. My intent is to show you that advertising is not the only option on the table when you're a graphic design student. I'll say this, because I did not know this in undergrad. My own story is about slowly but steadily moving away form advertising, never to return.
+
+Growing up
+----------
+
+[ commodore pc1, 540k ram, ingen hd ] I think my childhood in Denmark was very much like many of yours. As a part of the computer generation, one day to the next there was something called a computer in our homes. In the beginning it was used to perform simple tasks like writing non-formatted text in WordPerfect, but I think the very first interest many of us had in the computer was via computer games. I learned the buttons on the keyboard by playing digger [ digger]. My brother and I learned our first english words one summer playing Monkey Island [monkey island] because you had to type in english sentences to make the character move.
+
+Then along came the internet and that tiny computer in our living room became a portal to the rest of the world. If I had been born 10 years before I would probably have used my curiosity towards graphic design to create print designs. But instead my first experience with graphic design was purely computational: I was writing HTML tags instead of drawing things on paper. My Photoshop abilities were basically just a thing on the side that provided me a tool for creating better looking websites. And I'm sure I'm not alone in this: There is a generation of people in their 20's that use the computer as their default creative expression. Many of these use existing programs on their computer to aid in the design process. A few build their own programs as aid in the design process.
+
+Freelancing
+-----------
+
+At the time, the only way I knew of being creative on a computer was by building websites, so I became really good at this. The senior year of undergrad I started freelancing a little bit as a flash developer. The only place I could really use my graphic design and programming skills was in the advertising world, so I started developing flash banners. After graduating I got hired by an advertising agency where I designed and developed websites. Looking back at this time of my life, 2 things are very clear to me:
+
+The first thing is that no one had ever done a good job of telling me what design is. I knew my tools, that I was creative and that I wanted to do visual design, but I had no clue what design was. My teachers had spent 80-90% of their time teaching me tools instead of theory. That's the terrible thing about being a young graphic designer today: The computer is such a powerful and dictating tool that the beginner doesn't learn to THINK about design. It's all about the tool, and we forget that technology is nothing in itself. I really thought that designing a website was all about opening Photoshop and start playing around with drop shadows. If I had to graph my knowledge today it would probably look like this [graph].
+
+The second this that is clear to me about my first year working after undergrad is that I really, really hated advertising. I hated the hierarchy, I hated the overall goal of optimizing sales. I hated the way they treated the creative programmers by letting them implement the art directors PSD files. So I had no clue what to do. The most surprising thing is that I really thought that graphic design and advertising was the same thing.
+
+>>> What I don't like about that world: Hip trends
+
+[ josh slides 7 - 12 ]
+
+The web is flooded with articles like this (show Github article). But it doesn't say anything about the content.
 
 
 
-dictating . Instead it describes web design as a process of combining content and form.
+My Reaction
+-----------
 
-Content: what are we showing. Everything is not alike.
+So I quit my job and started freelancing while trying to figure out what to do. I knew I wanted to take a graduate degree, but the options in Denmark were so hands-off that I decided to look at international graduate schools. They say that when you feel stuck you should change your environment, and that's what I did.
 
-Form: the medium
+At the time I was reading a book called "Here Comes Everybody" by Clay Shirky. On the first sheet of the page there was a biography of Clay, and it said that he was a professor at the Interactive Telecommunications Program at New York University. So I googled the placed, and it looked amazing. The thing that convinced me was that it was an art and technology program that concentrated on using technology in creative ways. It was a program that taught tools, but always with a theoretical or historical approach to them. So I applied to ITP, got accepted and moved with my wife to New York. This was in the summer of 2009.
 
-Inspired by the web's own history 
+Going to ITP
+------------
 
-Designing for the web is not designing for print.
+My very first class at ITP was called "Visualizing Data", and it changed my life in many ways. My professor was called Stewart Smith, who's a creative coder with a graduate graphic design grad from Yale. For the first class he asked us to read 2 texts and watch a video on Vimeo. The texts were Vannevar Bush's "As we may think" and Paul Graham's "Hackers and Painters". If you don't know these texts they are definitely worth a read. "As We May Think" is an essay written in 1945 arguing that instead of focusing our scientific efforts towards destruction, we should rather focus on building machines for the good of man. The essay was very much a result of the invention and use of the atomic bomb, and today it stands as this amazing essay where Bush basically describes the personal computer, the internet and the idea of open source sharing. The machine he describes is a mechanic computer, as there was no concept of digital at the time, but it's truly a statement of how some people can present theories that are 20-30 years ahead of their time. "Hackers and Painters" is basically Paul Graham describing - 70 years after Vannevar Bush - how creative of the future is the programmer, and his essay is a comparison of how painters and computer programmers think and work in a very similar fashion.
 
+And then there was the video. The video he told us to watch, was a video Stewart made for the song "Jed's other poem" by the band Grandaddy, and I'll show it to you right now. The song is about a computer called Jed that drinks himself to death while writing poetry. So what Stewart did was to take an old Apple || and program a piece of software that runs on the computer in sync with the song - so it's like the computer is speaking to us. [ video ]
 
-HTML is built on the concept of rectangles. They 
+I absolutely loved everything about this video. The use of an old computer, the use of an ancient programming language, the fact that the computer spits out its source code at the end. And I think it's obvious that I fell so much in love with this piece because it's on the direct opposite scale of what I did in advertising. It's an extremely clever and thoughtful use of form for a specific piece of content. A form that not only pushes the Apple || computer into something that is very, very unique, but also because it brings a live the main character in the song. There is nothing hip or trendy about the choice of form.
 
+History of Computation
+----------------------
 
-It's a clear sign of the beginner not to embrace this, making things round or skewed.
+So my time at ITP was basically a journey away from the hip and trendy design world that I'd known before [slide of drop shadow gallery] and towards an understanding of what it actually means to use the computer as a creative design tool. I became obsessed with understanding the history of art and computation, and there was this really rich history that I'd known nothing about.
 
-Working with the constraints of the markup language.
+	- Sol Lewitt
+	- Bit Magazine
+	- Xerox Parc (Xerox Star)
+	- MORE!
+	
+My Work
+-------
+
+So I started to create works that relied heavily on an exploration of the history and technology of the computer. Starting from the very basics. One of the first projects I did may seem silly now, but was an exploration of the concept of programming and logic. [People Watching Plus]
+
+I'm going to run through these early ones quickly, as they are just to give you a sense. The next project was basically an exploration in answering the question: "What is a computer?": it's a binary device: bits > bytes > etc. Can I create a sculpture that reads Shakespeare? [Light Sculpture]
+
+[Self portrait] can I program video?
+
+[Ohland balloons]
+
+[Tile Puzzle]
+
+[Write me]
+
+[I Used to be somebody]
+
+The best example I have of this was my first day at the New York Times where I asked one of the graphic designers to design me a button for an interactive piece. This is what he sent to me [show nytimes button]. No trend, no hip, that's a button!
+
+9/11 Tapes
+
+Madoff Interview
+	
+	
+Creative Coding Now
+-------------------
+
+Find stuff in A Touch of Code
+
+Conclusion
+----------
+
+LAST: So here at last, I'd better tell you what I think design is. I we say that design is the combination between form and content [josh slide], then I think great design is choosing a form for your content that relies heavily on the history and technology of our medium. To design a beautiful book you have to know about the history of print design (typography, etc) AND the technology (printing techniques, etc). For computational design this means knowing about computer history and computer technology. What is computational design? It's basically filling pixels. What are pixels? 3 color numbers > bytes > bits. Why does an RGB value go from 0-255 (explain byte). How can you simplify when you don't know the simplest digital form? Bad things happen when you don't know the history of your medium [google docs slide].
+
+I will challenge you to think about how you approach designing on a computer. Not always using Photoshop, but creating your own Photoshop.
